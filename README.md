@@ -1,10 +1,23 @@
-# CS50x 2025 - Web
+# Computer Science Overview
 
 ## Roadmap
 
-- [ ] Week 6 - Python
-- [ ] Week 7 - SQL
-- [ ] Week 8 - HTML, CSS, JavaScript
+Data Structures:
+
+- [ ] Array
+- [ ] Linked List
+- [ ] Queue
+- [ ] Stack
+- [ ] Tree
+- [ ] Hash Table
+
+Algorithms:
+
+- [ ] Binary Search
+- [ ] Linear Search
+- [ ] Bubble Sort
+- [ ] Merge Sort
+- [ ] Selection Sort
 
 ## License
 
