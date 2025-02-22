@@ -1,15 +1,16 @@
-# Computer Science Overview
+# CS50x 2025 Algorithms
 
 ## Roadmap
 
 Data Structures:
 
 - [ ] Array
+- [ ] Graph
+- [ ] Hash Table
 - [ ] Linked List
 - [ ] Queue
 - [ ] Stack
 - [ ] Tree
-- [ ] Hash Table
 
 Algorithms:
 
