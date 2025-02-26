@@ -36,50 +36,53 @@ int main(void)
     binary_search(numbers, target, left_door, right_door, steps);
 }
 
+/**
+ * Binary search function.
+ */
 int binary_search(int numbers[], int target, int left_door, int right_door, int steps)
 {
 
     /* Set the middle of the array. */
     int middle_door = left_door + (right_door - left_door) / 2;
 
-    /* If no doors left. */
+    /* 'If no doors left'' */
     if (left_door > right_door)
     {
         steps++;
-        /* Return false. */
+        /* 'Return false' */
         printf("Target not found, %i steps taken.\n", steps);
         return 1;
     }
 
-    /* If number behind middle door. */
+    /* 'If number behind middle door' */
     if (target == numbers[middle_door])
     {
         steps++;
 
+        /* Set the word for O(n) or O(1). */
         char *word = "step";
-
         if (steps > 1)
         {
             word = "steps";
         }
 
-        /* Return true. */
+        /* 'Return true' */
         printf("%i found, %i %s taken.\n", target, steps, word);
         return 0;
     }
-    /* Else if number < middle door. */
+    /* 'Else if number < middle door' */
     else if (target < numbers[middle_door])
     {
         steps++;
-        /* Search left half by constraining the right. */
+        /* 'Search left half' by constraining the right. */
         return binary_search(numbers, target, left_door, middle_door - 1, steps);
     }
 
-    /* Else if number > middle door. */
+    /* 'Else if number > middle door' */
     else if (target > numbers[middle_door])
     {
         steps++;
-        /* Search right half by constraining the left. */
+        /* 'Search right half' by constraining the left. */
         return binary_search(numbers, target, middle_door + 1, right_door, steps);
     }
 }

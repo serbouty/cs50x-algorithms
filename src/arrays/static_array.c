@@ -7,7 +7,6 @@
  * consisting of equal-size elements indexed
  * by contiguous integers.
  *
- *
  * Runtimes:
  *
  * Insert at the beginning: O(n)
