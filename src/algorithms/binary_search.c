@@ -65,10 +65,8 @@ int binary_search(int numbers[], int target, int left_door, int right_door, int 
         {
             word = "steps";
         }
-
         /* 'Return true' */
         printf("%i found, %i %s taken.\n", target, steps, word);
-        return 0;
     }
     /* 'Else if number < middle door' */
     else if (target < numbers[middle_door])
@@ -85,4 +83,6 @@ int binary_search(int numbers[], int target, int left_door, int right_door, int 
         /* 'Search right half' by constraining the left. */
         return binary_search(numbers, target, middle_door + 1, right_door, steps);
     }
+
+    return 0;
 }
