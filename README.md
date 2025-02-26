@@ -1,6 +1,15 @@
 # CS50x 2025 Snippets
 
-Review of some data structures and algorithms from CS50x.
+Update the pseudocode from CS50x with procedural examples and terminology annotations.
+
+## Snippets
+
+- Linear Search, Binary Search: [src/algorithms](src/algorithms)
+- Arrays: [src/arrays](src/arrays)
+- Hash Tables: [src/hash-tables](src/hash-tables)
+- Linked Lists: [src/linked-lists](src/linked-lists)
+- Queues: [src/queues](src/queues)
+- Stacks: [src/stacks](src/stacks)
 
 ## Development
 
