@@ -1,6 +1,6 @@
 # CS50x 2025 Snippets
 
-Update the pseudocode from CS50x with procedural examples and terminology annotations.
+Update the code from CS50x with more examples.
 
 ## Snippets
 
